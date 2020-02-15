@@ -464,7 +464,104 @@ a:focus {
     border-bottom: 1px dashed #2F8F41;
 }
 
-
-
-
 /*END ain block style*/
+
+/*Sidebar block style*/
+.sidebar__head{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+.sidebar__head_text {
+    background: #121212;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.sidebar__one{
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+.make__bet {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.make__bet:last-child{
+    margin-bottom: 0;
+}
+
+
+.make__bet_img {
+    width: 100px;
+    height: auto;
+}
+
+.make__bet_inf {
+    margin-left: 16px;
+    width: calc(100% - 116px);
+}
+
+.make__bet_inf-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #242526;
+}
+
+.make__bet_inf-slag {
+    font-size: 15px;
+    line-height: 15px;
+    color: #9A9D9F;
+    margin-top: 6px;
+}
+
+.make__bet_inf-star {
+    background: #FAAB00;
+    border-radius: 3px;
+    padding: 4.5px 6px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.make__bet_inf-star img{
+    margin-right: 6px;
+}
+
+.make__bet_inf-link a {
+    width: 100%;
+    background: #2F8F41;
+    border: 1px solid #2F8F41;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5px;
+    text-decoration: none;
+}
+/*END Sidebar block style*/
