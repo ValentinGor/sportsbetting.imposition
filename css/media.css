@@ -185,6 +185,14 @@
         padding: 0;
     }
 
+    .contain-sort .container .row {
+        margin: 0;
+    }
+
+    .contain-sort .container .row .col-lg-12 {
+        padding: 0;
+    }
+
     .contain-sort {
         height: 45px;
     }
