@@ -4,6 +4,7 @@ html body {
     font-weight: normal;
     font-style: normal;
     color: #242526;
+    overflow-x: hidden;
 }
 
 a:focus {
@@ -17,7 +18,6 @@ a:focus {
     width: 100%;
     height: 38px;
     background-color: #121212;
-
 }
 
 .top__line {
@@ -189,7 +189,6 @@ a:focus {
     height: 32px;
     background: #2F8F41;
     border-radius: 3px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,11 +198,30 @@ a:focus {
 
 /*Bonus style*/
 .contain-bonus {
+    position: relative;
     background-image: url(../img/img_background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 0 30px;
+}
+
+.bonus__doted {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(5, 7, 8, 0.319421) 0%, rgba(6, 8, 9, 0.24) 0.01%, #060809 70.31%, #000000 99.92%, #060809 99.93%, rgba(204, 204, 204, 0.686417) 99.94%, rgba(177, 177, 177, 0.729419) 99.95%, #060809 99.96%, rgba(0, 0, 0, 0.533801) 99.97%);
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 25px;
 }
 
 .bonus__head h2 {
@@ -255,7 +273,6 @@ a:focus {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
@@ -277,8 +294,6 @@ a:focus {
     background: rgba(30, 136, 229, 0.1);
     border: 1px solid #1E88E5;
     box-sizing: border-box;
-    border-radius: 5px;
-
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
@@ -297,6 +312,12 @@ a:focus {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    border-left: 1px solid #E0E0E0;
+}
+
+
+.ticket__left {
+    margin-left: -1px;
 }
 
 .ticket__left {
@@ -310,14 +331,14 @@ a:focus {
 
 .ticket__left_btn {
     background-color: #060809;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     padding: 39px 15px 15px;
+    height: calc(100% - 160px);
 }
+
 
 .ticket__left_btn a {
     border: 1px solid #FFFFFF;
@@ -326,7 +347,6 @@ a:focus {
     justify-content: center;
     align-items: center;
     width: 100%;
-
     font-weight: bold;
     font-size: 14px;
     text-align: center;
@@ -446,8 +466,8 @@ a:focus {
     height: 46px;
     background: #FAFAFA;
     border: 1px solid #E0E0E0;
-
     padding: 8px 15px;
+    margin-left: -1px;
 }
 
 .ticket__bottom a {
@@ -641,10 +661,16 @@ a:focus {
     line-height: 18px;
     color: #999999;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+.reviews__author_name {
+    justify-content: flex-start;
+}
+
+.reviews__author_date {
+    justify-content: flex-end;
+}
 
 .reviews__author_name img,
 .reviews__author_date img {
@@ -652,3 +678,121 @@ a:focus {
 }
 
 /*END Sidebar block style*/
+
+.contain-mobile__line {
+    display: none;
+    height: 50px;
+    background-color: #F5F5F5;
+}
+
+.mobile__line {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile__line_logo a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #242526;
+    text-decoration: none;
+}
+
+.mobile__line_icon {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mobile__line_icon a:first-child {
+    margin: 0 25px 0 0;
+}
+
+.mobile__line_icon a:last-child {
+    margin: 0;
+}
+
+.mobile__ticket {
+    display: none;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.mobile__ticket_top {
+    padding: 15px 20px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile__ticket_top-link {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.mobile__ticket_top-link a {
+    background: #1E88E5;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 25px;
+    padding: 0 15px;
+    display: inline-flex;
+}
+
+.mobile__ticket_top-image {
+    width: 100px;
+    margin-right: 15px;
+}
+
+.mobile__ticket_top-text {
+    width: calc(100% - 115px);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #242526;
+}
+
+.mobile__ticket_center {
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile__ticket_center-text {
+    width: calc(50% - 15px);
+    margin-right: 15px;
+}
+
+.mobile__ticket_center-link {
+    width: 100%;
+}
+
+.mobile__ticket_bottom {
+    padding: 15px 20px;
+    background-color: #FAFAFA;
+}
+
+.mobile__ticket_bottom-link a {
+    font-size: 16px;
+    color: #242526;
+    text-decoration: none;
+    border-bottom: 1px dashed #2F8F41;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+
+.mobile__ticket_bottom-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}

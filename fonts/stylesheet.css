@@ -7,6 +7,7 @@
     url('PFDinDisplayPro-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -18,6 +19,7 @@
     url('PFDinDisplayPro-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -29,6 +31,7 @@
     url('PFDinDisplayPro-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -40,6 +43,7 @@
     url('PFDinDisplayPro-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -51,6 +55,7 @@
     url('PFDinDisplayPro-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -62,6 +67,7 @@
     url('PFDinDisplayPro-MediumItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -73,6 +79,7 @@
     url('PFDinDisplayPro-LightItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -84,6 +91,7 @@
     url('PFDinDisplayPro-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -95,6 +103,7 @@
     url('PFDinDisplayPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -106,6 +115,7 @@
     url('PFDinDisplayPro-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -117,6 +127,7 @@
     url('PFDinDisplayPro-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -128,5 +139,6 @@
     url('PFDinDisplayPro-Medium.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
